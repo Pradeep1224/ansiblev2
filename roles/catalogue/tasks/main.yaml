@@ -1,6 +1,6 @@
 - name: print my details
   debug:
-    msg: hey, iam {{person}} and {{age}} old
+    msg: "hey, iam {{person}} and {{age}} old"
 
 - name: application setup
   include_role:
