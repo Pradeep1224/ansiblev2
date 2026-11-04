@@ -18,7 +18,7 @@
   - name: Find targeted directories
     ansible.builtin.find:
       paths: /usr/share/nginx/html/*      # The base directory to search inside
-      file_type: directory                 # Ensures you only match directories, not files
+       
       recurse: true
       hidden: true
       file_type: any
