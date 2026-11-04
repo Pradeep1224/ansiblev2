@@ -13,5 +13,8 @@ cart_host: cart.pradeepverse.online
 shipping_host: shipping.pradeepverse.online
 payment_host: payment.pradeepverse.online
 frontend_host: frontend.pradeepverse.online
+
+shipping_user: "{{vault_shipping_user}}"
+shipping_password: "{{vault_shipping_password}}"
 #ansible_use: ec2-user
 #ansible_password: DevOps321
